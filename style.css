@@ -1,1 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand:wght@400;500;700&display=swap');
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Quicksand',sans-serif;
+
+background:
+linear-gradient(180deg,#ffe8f4,#fff6fb,#ffffff);
+
+color:#444;
+
+overflow-x:hidden;
+
+}
+
+header{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:20px 70px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(255,255,255,.45);
+
+backdrop-filter:blur(18px);
+
+z-index:999;
+
+box-shadow:0 10px 30px rgba(255,182,212,.15);
+
+}
+
+header h1{
+
+font-family:'Playfair Display',serif;
+
+font-size:38px;
+
+color:#ff5ca8;
+
+letter-spacing:2px;
+
+}
+
+nav{
+
+display:flex;
+
+gap:35px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#555;
+
+font-weight:700;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#ff5ca8;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:40px;
+
+background:
+
+radial-gradient(circle at top,#ffd6ec 0%,#fff8fc 60%,white 100%);
+
+}
+
+.hero h2{
+
+font-size:70px;
+
+max-width:900px;
+
+font-family:'Playfair Display',serif;
+
+color:#ff5ca8;
+
+line-height:1.15;
+
+}
+
+.hero p{
+
+margin-top:25px;
+
+font-size:22px;
+
+max-width:700px;
+
+line-height:1.8;
+
+color:#666;
+
+}
+
+.hero button{
+
+margin-top:45px;
+
+padding:18px 45px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff5ca8;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.35s;
+
+box-shadow:0 15px 35px rgba(255,92,168,.3);
+
+}
+
+.hero button:hover{
+
+transform:translateY(-6px);
+
+background:#ff3d97;
+
+box-shadow:0 25px 45px rgba(255,92,168,.45);
+
+}
